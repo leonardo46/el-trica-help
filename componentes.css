@@ -1,0 +1,100 @@
+@font-face{
+    font-family: Pacifico;
+    src: url(../fonts/Pacifico/Pacifico-Regular.ttf);
+}
+@font-face{
+    font-family: Roboto;
+    src: url(../fonts/Pacifico/Roboto-Regular.ttf);
+}
+@font-face{
+    font-family: Roboto;
+    src: url(../fonts/Pacifico/Roboto-Bold.ttf);
+    font-weight: bold;
+}
+
+
+
+
+
+
+body
+	{
+		
+		
+		
+		background-size: cover;
+		background-attachment: fixed;
+		background-position: center;
+		text-align: center;
+		font-family: Arial, sans-serif;
+    	margin:0;
+    }
+    
+    #banner
+	{
+		background-image: url("../imagens/lamp2.jpg");
+		background-size: cover;
+		background-position: center;
+		flex-wrap: wrap;
+		padding: 2em;
+		margin: 0%;
+		
+	}
+	 ul 
+	{
+		text-decoration: none;
+		float: left;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		
+
+
+	}
+	#banner a
+	{
+		color: aliceblue;
+		font-size: 1.5em;
+	}
+	nav h1
+	{	
+		font-family:roboto-bold; 
+		margin-top:5%;
+		text-align:center;
+		font-size:44px;
+		color: rgb(255, 255, 255);
+		background-position: center;
+		padding: 2%;
+		background-color: rgba(0, 0, 0, 0.514);
+	  
+	}
+
+
+	section h3
+{
+	margin: 0%;
+	background-color: rgb(7, 7, 7);
+	color: rgb(255, 255, 255);
+	font-size: 2em;
+}
+	
+	#fundo
+    {   
+		background-image: url("../imagens/telafun.jpg");
+		background-attachment: fixed;
+		background-color: rgba(240, 248, 255, 0.116);
+		background-position:center;
+		background-size: cover;
+		padding: 2em;
+		margin:0%;
+        
+
+    }
+
+    .box
+    {
+        background-position: center;
+        background-size: contain;
+    }
+
+						

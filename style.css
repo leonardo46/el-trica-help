@@ -1,0 +1,183 @@
+
+@font-face{
+    font-family: Roboto;
+    src: url(Pacifico/Roboto-Regular.ttf);
+}
+@font-face{
+    font-family: Roboto;
+    src: url(Pacifico/Roboto-Bold.ttf);
+    font-weight: bold;
+}
+
+
+
+
+/* ----------------------------------------------------------------------------------------------------------------------- */
+/* ---------------------------------------------------pagina inicial------------------------------------------------------ */
+
+body
+	{
+		
+		
+		background-image: url("telafun.jpg");
+	background-attachment: fixed;
+		background-size: cover;
+		background-position: center;
+		text-align: center;
+		font-family: Arial, sans-serif;
+    	margin:0;
+	}
+
+
+	
+
+	h2
+	{
+		margin-top:0;
+	}
+#banner
+	{
+		background-image: url("lamp2.jpg");
+		
+		background-size: cover;
+		
+		background-position: center;
+		display: flex;
+		
+		padding: 0%;
+		margin: 0%;
+		
+	}
+	nav h1
+	{	
+		font-family:roboto-bold; 
+		margin-top:5%;
+		text-align:center;
+		font-size:44px;
+		color: rgb(255, 255, 255);
+		background-position: center;
+		padding: 2%;
+		background-color: rgba(0, 0, 0, 0.514);
+	  
+	}
+	
+	#banner div:nth-child(1)
+	{
+		
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+		width: 100% ;
+		
+		
+	}
+
+	
+
+/* --------------------------------------------------------------propaganda-------------------------------------------------------------- */
+section h3
+{
+	margin: 0%;
+	background-color: rgb(7, 7, 7);
+	color: rgb(255, 255, 255);
+	
+}
+
+
+/* --------------------------------------------------------------botoes grandesas eletrica----------------------------------------------- */
+#botoes
+{
+	
+	background-color: rgba(240, 248, 255, 0.116);
+	background-position:center;
+	background-size: cover;
+	padding: 2em;
+	margin:0%;
+	
+}
+
+
+#botoes h2
+{
+	color: rgb(0, 0, 0);
+	background-color: rgba(252, 249, 249, 0.411);
+	font-size: 2em;
+	
+}
+
+
+
+ .bt a {
+	display:block;
+	margin-top: 7%;
+	background-color: rgba(3, 3, 3, 0.61);
+	padding: 10px 0px;
+	border: 6px;
+	width: 150px;
+	margin: 0px auto;
+	border: 1px solid #AAA;
+	border-radius: 5px;
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+
+}     
+/* ------------------------------------------------------------------texto---------------------------------------------------------------------- */
+.text p
+{
+	background-color:rgba(252, 249, 249, 0.411); 
+	color: rgb(0, 0, 0);
+	text-align: justify;
+	font-size: 1.8em;
+	align-items: center;
+	justify-content: center;
+	font-family: roboto;
+	
+} 
+section
+{
+	
+	padding: 0%;
+}
+
+/* ------------------------------------------------------------------componentes---------------------------------------------------------------------- */
+
+
+.box 
+{
+
+	background-size: contain;
+	background-color:rgba(252, 249, 249, 0.411);
+	margin: 3%;
+	margin-left:20%;
+	margin-right:20%; 
+	background-position:center;
+	border-radius: 5px;  
+}
+
+
+#fundo
+    {   
+	
+		
+		background-color: rgba(240, 248, 255, 0.116);
+		background-position:center;
+		
+		align-items: center;
+		padding: 2em;
+		margin:0%;
+        
+
+    }
+
+
+
+
+
+
+
+
+			
+
+
+

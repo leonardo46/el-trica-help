@@ -1,0 +1,88 @@
+@font-face{
+    font-family: Pacifico;
+    src: url(Pacifico/Pacifico-Regular.ttf);
+}
+@font-face{
+    font-family: Roboto;
+    src: url(Pacifico/Roboto-Regular.ttf);
+}
+@font-face{
+    font-family: Roboto;
+    src: url(Pacifico/Roboto-Bold.ttf);
+    font-weight: bold;
+}
+
+
+body
+{		
+    /* background-color:rgb(148, 150, 151) ;msm cor de fundo da img*/
+	
+    
+    background-image:url("flash4.jpg");
+    background-attachment: fixed;
+    background-position:center;
+    background-size:cover;
+	
+	background-position:top;
+	text-align: center;
+	font-family: Arial, sans-serif;
+    margin:0;
+	
+}
+#tudo
+{
+    
+}
+.til h1
+{
+    
+    text-align: center;
+    font-size: 42px;
+    color: rgb(6, 7, 8);
+    font-size:2.5em;
+}
+
+.til
+{
+    
+    background-size:cover;
+	
+    background-position:center;
+    border-collapse:collapse ;
+}
+/* -----------------------------------------------------------texto------------------------------------------------------------------------------ */
+.text
+{
+    
+    
+    padding: 0px 40px;
+    margin: 0px;
+    padding: 5%;
+    border:0px; 
+        
+   
+}
+ p
+{   
+    
+    background-color:rgba(148, 150, 151, 0.425) ;
+	color: rgb(0, 0, 0);
+	text-align: center;
+	font-size: 1.8em;
+	align-items: center;
+	justify-content: center;
+	font-family: roboto;
+	
+} 
+h2
+{
+    
+   
+	color: rgb(0, 0, 0);
+	text-align: center;
+	font-size: 2em;
+	align-items: center;
+	justify-content: center;
+	font-family: roboto;
+}
+ 

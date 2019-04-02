@@ -1,0 +1,95 @@
+@font-face{
+    font-family: Pacifico;
+    src: url(Pacifico/Pacifico-Regular.ttf);
+}
+@font-face{
+    font-family: Roboto;
+    src: url(Pacifico/Roboto-Regular.ttf);
+}
+@font-face{
+    font-family: Roboto;
+    src: url(Pacifico/Roboto-Bold.ttf);
+    font-weight: bold;
+}
+
+
+body
+{		
+    /* background-color:rgb(148, 150, 151) ;msm cor de fundo da img*/
+	
+    
+    background-image:url("telafun.jpg");
+    background-attachment: fixed;
+    background-position:center;
+    background-size:cover;
+	
+	background-position:top;
+	text-align: center;
+	font-family: Arial, sans-serif;
+    margin:0;
+	
+}
+
+.til h1
+{
+    
+    text-align: center;
+    font-size: 42px;
+    color: rgb(6, 7, 8);
+    font-size:2.5em;
+}
+
+.til
+{
+    
+    background-size:cover;
+	
+    background-position:center;
+    border-collapse:collapse ;
+}
+/* -----------------------------------------------------------texto------------------------------------------------------------------------------ */
+.text
+{
+    
+    
+   
+    
+    margin: 4%;
+    border-radius: 1%;
+    border:0px; 
+    background-color:rgba(148, 150, 151, 0.863) ;       
+   
+}
+ p
+{   
+    
+    
+	color: rgb(0, 0, 0);
+	text-align: center;
+	font-size: 1.8em;
+	align-items: center;
+	justify-content: center;
+	font-family: roboto;
+	
+} 
+h2
+{
+    
+   color:black;
+	text-align: center;
+	font-size: 2em;
+	align-items: center;
+	justify-content: center;
+    font-family: roboto;
+    
+    
+}
+
+ 
+    
+    
+    
+    
+        
+
+
